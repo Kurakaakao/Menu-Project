@@ -6,7 +6,7 @@ let menu = [
     title: "Harmonize",
     length: "3:52",
     category: "cat1",
-    img: "img/harmonize",
+    img: "img/harmonize.jpg",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -14,7 +14,7 @@ let menu = [
     title: "Genocider",
     length: "3:52",
     category: "cat2",
-    img: "img/genocider",
+    img: "img/genocider.png",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -22,7 +22,7 @@ let menu = [
     title: "Hardcore Syndrome 3",
     length: "5:28",
     category: "cat3",
-    img: "img/syndrome",
+    img: "img/syndrome.jpg",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -30,7 +30,7 @@ let menu = [
     title: "Yatsuzaki Hardcore Volume 7",
     length: "2:26",
     category: "cat1",
-    img: "img/yatsuzaki7",
+    img: "img/yatsuzaki7.jpg",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -38,7 +38,7 @@ let menu = [
     title: "Massive Circlez 8",
     length: "4:42",
     category: "cat1",
-    img: "img/circlez8",
+    img: "img/circlez8.jpg",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -46,7 +46,7 @@ let menu = [
     title: "Megaton Kick",
     length: "2:58",
     category: "cat2",
-    img: "img/megatonkick",
+    img: "img/megatonkick.png",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -54,7 +54,7 @@ let menu = [
     title: "Cyaegha",
     length: "6:40",
     category: "cat4",
-    img: "img/cyaegha",
+    img: "img/cyaegha.jpg",
     desc: "This is an item solely created for testing purposes.",
 }
 ];
