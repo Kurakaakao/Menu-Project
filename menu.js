@@ -72,27 +72,27 @@ window.addEventListener("DOMContentLoaded", function() {
         }
         return values;
     },
-    ["all"]
-    );  // All-nappia ei tarvitse dynaamisesti määritellä, sillä all-valinta on staattinen.
+    ["all"] // All-nappia ei tarvitse dynaamisesti määritellä, sillä all-valinta on staattinen.
+    ); 
     const categoryBtns = buttonCategories.map(function(category) {
         return `<button class="filter-btn" type="button" data-category=${category}>${category}</button>`
-    }).join("");
-    //console.log(categoryBtns);
+    }).join("");  
     containerButtons.innerHTML = categoryBtns;
+    
     const filterBtns = document.querySelectorAll(".filter-btn");
+    
     filterBtns.forEach(function(btn) {
         btn.addEventListener("click", function(e) {
             const objectCategory = e.currentTarget.dataset.category;  // Referoidaan data-id osioon napeissa suodattamaan tuloksia
-            const menuCategory = menu.filter(function(menuItem) {           // Suodatetaan päätaulukosta tuloksia
-                if (menuItem.category === objectCategory) {                 // Jos päätaulukon kategoria vastaa nappien data-id kategoriaa, palautetaan kyseinen objekti
+            const menuCategory = menu.filter(function(menuItem) {     // Suodatetaan päätaulukosta tuloksia
+                if (menuItem.category === objectCategory) {           // Jos päätaulukon kategoria vastaa nappien data-id kategoriaa, palautetaan kyseinen objekti
                     return menuItem;
                 }
             });
-            //console.log(menuCategory);
-            if (objectCategory === "all") {                                       // Jos nappulaa "all" painetaan, palautetaan koko taulukko
+            if (objectCategory === "all") {                           // Jos nappulaa "all" painetaan, palautetaan koko taulukko
                 showMenuItems(menu);
             }
-            else {                                                          // Jos all ei paineta, toteutetaan tuotteiden printtausfunktio suodatetuilla tuloksilla
+            else {                                                    // Jos all ei paineta, toteutetaan tuotteiden printtausfunktio suodatetuilla tuloksilla
                 showMenuItems(menuCategory);
             }
         });
@@ -112,7 +112,7 @@ function showMenuItems(menuItems) {
             </div>
             </article>`;    
         });
-    showMenu = showMenu.join(""); // Join array values together without any spaces
+    showMenu = showMenu.join("");  // Yhdistetään taulukon HTML entryt ilman välilyöntejä
     //console.log(showMenu)
-    sect.innerHTML = showMenu // Parses the dynamic HTML arrays into the index.html file
+    sect.innerHTML = showMenu      // Tulostaa dynaamisesti HTML taulukot index.html:ään
 }
