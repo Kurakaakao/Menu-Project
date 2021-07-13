@@ -6,7 +6,7 @@ let menu = [
     title: "Harmonize",
     length: "3:52",
     category: "cat1",
-    img: "http://www.tano-c.net/system/wp-content/uploads/tcplus-0021.jpg",
+    img: "img/harmonize",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -14,7 +14,7 @@ let menu = [
     title: "Genocider",
     length: "3:52",
     category: "cat2",
-    img: "http://www.tano-c.net/system/wp-content/uploads/genocider.png",
+    img: "img/genocider",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -22,7 +22,7 @@ let menu = [
     title: "Hardcore Syndrome 3",
     length: "5:28",
     category: "cat3",
-    img: "https://shop32-makeshop.akamaized.net/shopimages/redwave/000000000075.jpg",
+    img: "img/syndrome",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -30,7 +30,7 @@ let menu = [
     title: "Yatsuzaki Hardcore Volume 7",
     length: "2:26",
     category: "cat1",
-    img: "https://shop32-makeshop.akamaized.net/shopimages/redwave/000000001207.jpg",
+    img: "img/yatsuzaki7",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -38,7 +38,7 @@ let menu = [
     title: "Massive Circlez 8",
     length: "4:42",
     category: "cat1",
-    img: "https://shop32-makeshop.akamaized.net/shopimages/redwave/000000001703_Oh64rJ8.jpg",
+    img: "img/circlez8",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -46,7 +46,7 @@ let menu = [
     title: "Megaton Kick",
     length: "2:58",
     category: "cat2",
-    img: "http://www.tano-c.net/system/wp-content/uploads/tcplus-0039.png",
+    img: "img/megatonkick",
     desc: "This is an item solely created for testing purposes.",
 },
 {
@@ -54,7 +54,7 @@ let menu = [
     title: "Cyaegha",
     length: "6:40",
     category: "cat4",
-    img: "http://www.tano-c.net/system/wp-content/uploads/tcdr-0034.jpg",
+    img: "img/cyaegha",
     desc: "This is an item solely created for testing purposes.",
 }
 ];
